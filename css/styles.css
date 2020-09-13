@@ -1,135 +1,126 @@
-#title{
-background-color: #ff4c68;
-
+#title {
+  background-color: #ff4c68;
 }
-h1{
+h1 {
   font-size: 3rem;
   font-weight: 900;
   color: white;
 }
-h2{
+h2 {
   font-family: "Montserrat";
-  font-size:3rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
   padding-left: 0;
 }
-.container-fluid{
+.container-fluid {
   padding: 3% 15% 15% 15%;
 }
-.title-at{
-  font-family:'Ubuntu';
+.title-at {
+  font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: 400;
   padding-left: 0;
   margin-left: 0;
 }
-.nav-item{
+.nav-item {
   padding-left: 36px;
 }
-.nav-link{
+.nav-link {
   font-size: 1.5rem;
   font-family: "Montserrat-light";
-
 }
-.download-button{
+.download-button {
   margin: 5% 3% 5% 2.5%;
 }
-.title-image{
+.title-image {
   position: absolute;
   width: 60%;
   right: 30%;
 
   transform: rotate(25deg);
 }
-h3{
+h3 {
   font-family: "Montserrat";
   font-weight: 900;
 }
-#features{
-
-  position:relative;
+#features {
+  position: relative;
   padding: 7% 15%;
   text-align: center;
   background-color: white;
   z-index: 1;
-
 }
-.interactive{
+.interactive {
   padding: 5%;
 }
-p{
+p {
   color: #8f8f8f;
 }
-.icon{
+.icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
-.fas:hover{
+.fas:hover {
   color: #ff4c68;
 }
-#testimonials{
-
+#testimonials {
   text-align: center;
   background-color: #ef8172;
   cursor: #fff;
-
 }
-.carousel-inner{
+.carousel-inner {
   padding: 7% 15%;
 }
-.testimonials-image{
+.testimonials-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-#press{
+#press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
-.press-logo{
-  width:15%;
+.press-logo {
+  width: 15%;
   margin: 20px 20px 15px;
 }
-#pricing{
+#pricing {
   padding: 100px;
   text-align: center;
-  }
-.pricing-col{
+}
+.pricing-col {
   padding: 3% 2%;
 }
-@media screen  and
-  (max-width:1028px)
-  {
-#title{
-  text-align: center;
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 60%;
+    right: 30%;
+    transform: rotate(0deg);
+  }
 }
-.title-image{
-  position: static;
-   width: 60%;
-   right: 30%;
-   transform: rotate(0deg);
-
-}
-}
-.footer{
+.footer {
   background-color: #ff4c68;
   text-align: center;
   padding: 3% 15% 0 15%;
 }
-.bottom-text{
+.bottom-text {
   padding-left: 10%;
-  padding-right:10%;
+  padding-right: 10%;
 }
-#footer{
+#footer {
   text-align: center;
   padding-top: 4%;
   line-height: 2;
 }
-.footer-icons{
+.footer-icons {
   margin-left: 5px;
   margin-right: 5px;
 }
